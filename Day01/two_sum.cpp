@@ -3,7 +3,8 @@ using namespace std;
 
 int main() {
   int a,b;
-  
+  cout << "=== Sum of Two Numbers ===" << endl;
+
   cout << "Enter first Numbers: ";
   cin >> a;
 
