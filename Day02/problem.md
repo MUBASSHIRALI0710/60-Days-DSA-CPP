@@ -3,19 +3,17 @@
 ## Problem 1: Even Numbers from 1 to N
 Write a program that takes an integer N and prints all even numbers from 1 to N.
 
-**Example:**
-Input: 10  
-Output: 2 4 6 8 10
 
 ## Problem 2: Factorial of a Number
 Compute N! (N factorial) using a loop. N ≥ 0.  
 0! = 1.
 
-**Example:**
-Input: 5  
-Output: 120
 
 ## Problem 3: Guess the Number Game
 Generate a random number between 1 and 100. Let the user guess until correct. Give hints "Too high" or "Too low". Count the number of attempts.
 
-**Example:**
+## Problem 4: Print Multiplication table of integer Number
+"Write a C++ program that takes an integer input from the user and uses a while loop to generate and display its multiplication table from 1 to 10."
+
+## Problem 5: Check correct pin
+"Write a C++ program that asks the user to enter a 4-digit PIN. The program should keep asking (loop) for the PIN as long as the user enters an incorrect value. Once the correct PIN (9999) is entered, it should display a success message."
