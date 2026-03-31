@@ -20,3 +20,11 @@ Each day includes:
 💻 C++ Implementations → practical coding
 🧠 Practice Problems → interview-style questions
 🔁 Daily GitHub Commits → consistency tracking
+<hr>
+🎯 Objectives
+✅ Build strong foundations in Data Structures & Algorithms
+✅ Develop problem-solving mindset
+✅ Maintain daily coding discipline
+✅ Create a structured GitHub repository for revision
+✅ Prepare for software engineering interviews
+<hr>
