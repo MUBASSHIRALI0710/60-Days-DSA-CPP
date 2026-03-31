@@ -29,6 +29,7 @@ Each day includes:
 ✅ Prepare for software engineering interviews
 <hr>
 📅 60-Day Learning Roadmap
+<hr>
 🟢 Phase 1 — C++ Foundations
 
 Day 1 – Day 5
@@ -43,6 +44,7 @@ Functions
 Time & Space Complexity
 
 Goal → Build the programming foundation for DSA
+<hr>
 
 🟡 Phase 2 — Arrays & Searching
 
@@ -56,6 +58,7 @@ Two Pointer Technique
 Binary Search
 
 Goal → Learn core problem solving patterns
+<hr>
 
 🔵 Phase 3 — Strings & Recursion
 
@@ -70,6 +73,7 @@ Backtracking introduction
 Goal → Develop recursive thinking
 
 🟣 Phase 4 — Linked List
+<hr>
 
 Day 26 – Day 32
 
@@ -81,6 +85,7 @@ Reverse Linked List
 Cycle Detection
 
 Goal → Understand pointer based data structures
+<hr>
 
 🔴 Phase 5 — Stack & Queue
 
@@ -94,6 +99,7 @@ Deque
 Monotonic Stack
 
 Goal → Learn important interview data structures
+<hr>
 
 🟠 Phase 6 — Trees
 
@@ -107,6 +113,7 @@ Binary Search Tree
 Tree recursion problems
 
 Goal → Master tree based interview problems
+<hr>
 
 🟤 Phase 7 — Graphs
 
@@ -121,6 +128,7 @@ Topological Sort
 Shortest Path
 
 Goal → Understand graph algorithms
+<hr>
 
 ⚫ Phase 8 — Advanced Algorithms
 
