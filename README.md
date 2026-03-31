@@ -1,34 +1,35 @@
-🚀 60 Days Data Structures & Algorithms Challenge (C++)
+<hr><hr>
+###🚀 60 Days Data Structures & Algorithms Challenge (C++)
+<hr><hr>
+##Welcome to my 60-Day Data Structures & Algorithms Journey using C++.
 
-Welcome to my 60-Day Data Structures & Algorithms Journey using C++.
+#This repository documents my daily learning, problem solving, and implementations as I build strong foundations for software engineering interviews.
 
-This repository documents my daily learning, problem solving, and implementations as I build strong foundations for software engineering interviews.
-
-The goal is simple:
+#The goal is simple:
 ➡️ Learn DSA deeply
 ➡️ Solve problems consistently
 ➡️ Become interview ready
 <hr>
 
-📌 Overview
+#📌 Overview
 
 This challenge is designed to develop strong problem-solving skills and algorithmic thinking.
 
-Each day includes:
+#Each day includes:
 
 📚 Theory Notes → concept explanations
 💻 C++ Implementations → practical coding
 🧠 Practice Problems → interview-style questions
 🔁 Daily GitHub Commits → consistency tracking
 <hr>
-🎯 Objectives
+#🎯 Objectives
 ✅ Build strong foundations in Data Structures & Algorithms
 ✅ Develop problem-solving mindset
 ✅ Maintain daily coding discipline
 ✅ Create a structured GitHub repository for revision
 ✅ Prepare for software engineering interviews
 <hr>
-📅 60-Day Learning Roadmap
+#📅 60-Day Learning Roadmap
 <hr>
 🟢 Phase 1 — C++ Foundations
 
