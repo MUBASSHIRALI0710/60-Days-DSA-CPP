@@ -28,3 +28,108 @@ Each day includes:
 ✅ Create a structured GitHub repository for revision
 ✅ Prepare for software engineering interviews
 <hr>
+📅 60-Day Learning Roadmap
+🟢 Phase 1 — C++ Foundations
+
+Day 1 – Day 5
+
+Topics:
+
+C++ Basics
+Operators
+Conditional Statements
+Loops
+Functions
+Time & Space Complexity
+
+Goal → Build the programming foundation for DSA
+
+🟡 Phase 2 — Arrays & Searching
+
+Day 6 – Day 15
+
+Topics:
+
+Array Traversal
+Prefix Sum
+Two Pointer Technique
+Binary Search
+
+Goal → Learn core problem solving patterns
+
+🔵 Phase 3 — Strings & Recursion
+
+Day 16 – Day 25
+
+Topics:
+
+String manipulation
+Recursion
+Backtracking introduction
+
+Goal → Develop recursive thinking
+
+🟣 Phase 4 — Linked List
+
+Day 26 – Day 32
+
+Topics:
+
+Singly Linked List
+Doubly Linked List
+Reverse Linked List
+Cycle Detection
+
+Goal → Understand pointer based data structures
+
+🔴 Phase 5 — Stack & Queue
+
+Day 33 – Day 38
+
+Topics:
+
+Stack
+Queue
+Deque
+Monotonic Stack
+
+Goal → Learn important interview data structures
+
+🟠 Phase 6 — Trees
+
+Day 39 – Day 48
+
+Topics:
+
+Binary Tree
+Tree Traversals
+Binary Search Tree
+Tree recursion problems
+
+Goal → Master tree based interview problems
+
+🟤 Phase 7 — Graphs
+
+Day 49 – Day 55
+
+Topics:
+
+Graph Representation
+BFS
+DFS
+Topological Sort
+Shortest Path
+
+Goal → Understand graph algorithms
+
+⚫ Phase 8 — Advanced Algorithms
+
+Day 56 – Day 60
+
+Topics:
+
+Dynamic Programming
+Greedy Algorithms
+Backtracking
+
+Goal → Solve complex interview problems
