@@ -8,3 +8,15 @@ The goal is simple:
 ➡️ Learn DSA deeply
 ➡️ Solve problems consistently
 ➡️ Become interview ready
+<hr>
+
+📌 Overview
+
+This challenge is designed to develop strong problem-solving skills and algorithmic thinking.
+
+Each day includes:
+
+📚 Theory Notes → concept explanations
+💻 C++ Implementations → practical coding
+🧠 Practice Problems → interview-style questions
+🔁 Daily GitHub Commits → consistency tracking
