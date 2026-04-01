@@ -17,8 +17,8 @@
 6   7   8   9   10
 11  12  13  14  15
 16  17  18  19  20
-<<<<<<< HEAD
 21  22  23  24  25 
+21  22  23  24  25 </pre>
 
 ## Problem - 04 : write partten program to print this :
 <pre>
@@ -28,6 +28,12 @@
 * * * *
 * * * * *
 * * * * * *</pre>
-=======
-21  22  23  24  25 </pre>
->>>>>>> f4bc135793d2db9cf086fbd2c6f132053bc28ef2
+
+## Problem - 05 : write partten program to print this :
+<pre>
+a a a a a 
+b b b b b
+c c c c c
+d d d d d
+e e e e e</pre>
+
