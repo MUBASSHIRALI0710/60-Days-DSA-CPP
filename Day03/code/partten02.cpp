@@ -6,7 +6,7 @@ int main() {
   {
     for (int col = 1; col <= 5; col++)
     {
-      cout << "1";
+      cout << col; //print col
     }
     cout << endl;
   }
