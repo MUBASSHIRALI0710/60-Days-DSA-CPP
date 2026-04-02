@@ -55,10 +55,10 @@ e e e e e</pre>
 
 ## Problem - 08 : write pattern program to print this :
 
-# This pattern is called the Butterfly Pattern 🦋.
-# It has two parts:
-# 1️.Upper half (increasing stars)
-# 2️.Lower half (decreasing stars)
+### This pattern is called the Butterfly Pattern 🦋.
+### It has two parts:
+### 1️.Upper half (increasing stars)
+### 2️.Lower half (decreasing stars)
 <pre> 
 for (col = 1; col <=  row; col++)
     cout << "*";
