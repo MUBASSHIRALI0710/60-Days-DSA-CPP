@@ -21,7 +21,7 @@ Output: `Vowel`
 
 **Vowels:** `a e i o u` (and uppercase `A E I O U`)  
 
-**Concept:** if-else, character comparison
+**Concept:** if-else, character comparison  
 
 ---
 
