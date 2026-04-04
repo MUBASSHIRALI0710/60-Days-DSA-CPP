@@ -1,168 +1,40 @@
-## 🚀 Step 1: What is a Function in C++?
+# Theory
 
-#### A function is a block of code that performs a specific task and can be reused multiple times.
+## Introduction
 
-#### 👉 Instead of writing the same code again and again, we create a function and call it whenever needed.
+In this document, we will discuss various data structures and algorithms relevant to computer science and software engineering. Understanding these concepts is crucial for improving programming skills, optimizing solutions, and preparing for interviews.
 
-Example
-#include <iostream>
-using namespace std;
+## Data Structures
 
-void greet() {
-    cout << "Hello Mubasshir!" << endl;
-}
+### 1. Arrays
+- **Definition**: A collection of elements identified by index or key.
+- **Use Cases**: Storing data in a format that can be accessed quickly.
 
-int main() {
-    greet();
-    return 0;
-}
-Output
-Hello Mubasshir!
+### 2. Linked Lists
+- **Definition**: A linear collection of data elements, known as nodes, where each node points to the next node.
+- **Advantages**: Dynamic size and ease of insertion/deletion.
 
-Explanation
-_________________________________________
-|  Part   |    	Meaning                  |
-|_________|______________________________|
-|  void	  |  function returns nothing    |
-| greet() | 	function name              |
-|    {}	  |  function body               |
-| greet();|  	function call              |
-|_________|______________________________|
+### 3. Trees
+- **Definition**: A hierarchical structure consisting of nodes, with a single node as the root.
+- **Types**: Binary trees, Binary Search Trees (BST), AVL trees, etc.
 
-## 🚀 Step 2: Types of Functions in C++
+### 4. Graphs
+- **Definition**: A collection of nodes connected by edges.
+- **Applications**: Social networks, web page links, and network topology.
 
-There are two main types:
+## Algorithms
 
-### 1️⃣ Built-in Functions
-Already provided by C++ libraries.
+### 1. Sorting Algorithms
+| Algorithm   | Time Complexity (Best) | Time Complexity (Worst) | Space Complexity |
+|-------------|------------------------|-------------------------|------------------|
+| Bubble Sort | O(n)                   | O(n^2)                  | O(1)             |
+| Quick Sort  | O(n log n)            | O(n^2)                  | O(log n)        |
+| Merge Sort  | O(n log n)            | O(n log n)              | O(n)            |
 
+### 2. Searching Algorithms
+- **Linear Search**: O(n)
+- **Binary Search**: O(log n)
 
-Example:
+## Conclusion
 
-sqrt(16)
-pow(2,3)
-
-These come from the C++ Standard Library.
-
-### 2️⃣ User-defined Functions
-
-Functions created by the programmer.
-
-Example:
-
-void add() {
-    cout << 5 + 3;
-}
-
-## 🚀 Step 3: Function Syntax (Important)
-
-General syntax:
-
-return_type function_name(parameters) {
-    // code
-}
-
-Example:
-
-int add(int a, int b) {
-    return a + b;
-}
-__________________________________________
-|   Part	         |    Meaning          |
-|__________________|_____________________|
-|  int         	   |  return type        |
-|  add	           |  function name      |
-|  (int a, int b)  | 	parameters         |
-|  return	         |  sends value back   |
-|------------------|---------------------|
-
-
-## 🚀 Step 4: Function With Return Value
-
-
-Example
-#include <iostream>
-using namespace std;
-
-int square(int n) {
-    return n * n;
-}
-
-int main() {
-
-    int result = square(5);
-    cout << result;
-
-}
-
-Output
-25
-
-
-Explanation
-
-square(5)
-5 * 5
-return 25
-
-
-## 🚀 Step 5: Function With Parameters
-
-Parameters allow us to pass values into functions.
-
-Example
-#include <iostream>
-using namespace std;
-
-void add(int a, int b) {
-    cout << a + b;
-}
-
-int main() {
-    add(4,6);
-}
-
-Output
-10
-
-## 🚀 Step 6: Function With Return + Parameters
-
-Most common type used in DSA.
-
-#include <iostream>
-using namespace std;
-
-int add(int a, int b) {
-    return a + b;
-}
-
-int main() {
-
-    int result = add(3,7);
-    cout << result;
-
-}
-
-Output
-
-10
-
-### 🧠 Interview Tip
-
-Every function has 3 main parts:
-
-1️⃣ Function declaration
-2️⃣ Function definition
-3️⃣ Function call
-
-Example:
-
-int add(int,int);  // declaration
-
-int add(int a,int b) {   // definition
-    return a+b;
-}
-
-int main() {
-    cout << add(2,3);  // call
-}
+Understanding various data structures and algorithms is essential in solving complex problems efficiently. Regular practice and real-world application of these concepts will enhance problem-solving skills.
