@@ -168,3 +168,167 @@ int add(int a,int b) {   // definition
 int main() {
     cout << add(2,3);  // call
 }
+
+## Default Parameters in C++
+
+A default parameter means the function already has a default value.
+If the user does not provide a value, the function uses the default value.
+
+### Syntax
+return_type function_name(type parameter = default_value)
+Example
+#include <iostream>
+using namespace std;
+
+void greet(string name = "Guest") {
+    cout << "Hello " << name << endl;
+}
+
+int main() {
+
+    greet("Mubasshir");  
+    greet();             
+
+}
+Output
+Hello Mubasshir
+Hello Guest
+Explanation
+greet("Mubasshir") → uses provided value
+greet() → uses default value "Guest"
+Important Rule ⚠️
+
+Default parameters must be from right to left.
+
+✔ Correct
+
+void add(int a, int b = 5)
+
+❌ Wrong
+
+void add(int a = 5, int b)
+
+
+## 2️⃣ Function Overloading
+
+Function overloading means same function name but different parameters.
+
+The compiler decides which function to call based on number or type of arguments.
+
+Example
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+double add(double a, double b) {
+    return a + b;
+}
+
+int main() {
+
+    cout << add(3,4) << endl;
+    cout << add(2.5,3.5);
+
+}
+Output
+7
+6
+
+Here:
+
+add(int,int)
+add(double,double)
+
+Same name but different parameter types.
+
+Another Example
+void print(int a) {
+    cout << a;
+}
+
+void print(int a, int b) {
+    cout << a << " " << b;
+}
+## 3️⃣ Call by Reference
+
+Normally functions use Call by Value (copy of variable).
+
+But Call by Reference sends the actual variable, so changes affect the original value.
+
+We use & reference operator.
+
+Example (Call by Value)
+#include <iostream>
+using namespace std;
+
+void change(int x) {
+    x = 50;
+}
+
+int main() {
+
+    int a = 10;
+    change(a);
+
+    cout << a;
+
+}
+
+Output
+10
+
+Because only copy was changed.
+
+Example (Call by Reference)
+#include <iostream>
+using namespace std;
+
+void change(int &x) {
+    x = 50;
+}
+
+int main() {
+
+    int a = 10;
+    change(a);
+
+    cout << a;
+
+}
+
+Output:
+50
+
+Now the original variable changed.
+
+## 🔑 Difference (Important for Interviews)
+<pre>
+____________________________________________________________________
+Feature	Call              |  by Value       |	Call by Reference  |
+Value passed              |   Copy          |	Original variable  |
+Changes affect original   | 	❌ No      |       ✅ Yes         |
+Memory	                  |     More        |        	Less       |
+Symbol	                  | normal variable |        	&          |
+__________________________|_________________|______________________|
+
+</pre>
+
+🧠 Real Use in DSA
+
+Call by reference is used for:
+
+swapping numbers
+modifying arrays
+recursion optimization
+large data structures
+
+Example: Swap using reference
+
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
