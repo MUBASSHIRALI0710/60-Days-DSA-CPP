@@ -47,143 +47,98 @@ Output: `[5, 4, 3, 2, 1]`
 
 ---
 
-## 🟡 Intermediate Level
-
-### 6. Second Largest Element
-Find the second largest distinct element in the array.  
-If it doesn’t exist, return `-1`.
+## 6. Input and Output Array
+Write a program to take `n` integers from the user, store them in an array, and then print the array.
 
 **Example:**  
-Input: `[12, 35, 1, 10, 34, 1]`  
-Output: `34`
+Input:  
+Enter number of elements: 5
+Enter 5 elements: 10 20 30 40 50
+
 
 ---
 
-### 7. Check if Array is Sorted (Non‑decreasing)
-Return `true` if the array is sorted in non‑decreasing order, else `false`.
+## 7. Missing Number in Array
+Given an array containing `n` distinct numbers taken from `0, 1, 2, ..., n`, find the missing number.
 
 **Example:**  
-Input: `[1, 2, 3, 4, 5]` → `true`  
-Input: `[1, 3, 2, 4]` → `false`
+Input: `[3, 0, 1]`  
+Output: `2`  
+Explanation: The array has numbers 0,1,3 – missing 2.
 
 ---
 
-### 8. Move Zeros to End
-Move all zeros to the end of the array while maintaining the relative order of non‑zero elements. Do it in‑place.
+## 8. Remove Duplicates in Array (Sorted)
+Given a **sorted** array, remove the duplicates in‑place and return the new length. Do not use extra array.
 
 **Example:**  
-Input: `[0, 1, 0, 3, 12]`  
-Output: `[1, 3, 12, 0, 0]`
+Input: `[1, 1, 2, 2, 2, 3, 4, 4]`  
+Output: new length = 4, first 4 elements become `[1, 2, 3, 4]`
 
 ---
 
-### 9. Rotate Array (Left by K positions)
-Rotate the array left by `k` steps. Try to do it in O(n) time and O(1) extra space.
+## 9. Print Odd Numbers in Array
+Print all odd numbers present in the array.
 
 **Example:**  
-Input: `[1, 2, 3, 4, 5, 6, 7]`, k = 2  
-Output: `[3, 4, 5, 6, 7, 1, 2]`
+Input: `[2, 5, 8, 11, 14, 17]`  
+Output: `5 11 17`
 
 ---
 
-### 10. Remove Duplicates from Sorted Array
-Given a sorted array, remove the duplicates **in‑place** such that each element appears only once. Return the new length.
+## 10. Print Even Numbers in Array
+Print all even numbers present in the array.
 
 **Example:**  
-Input: `[1, 1, 2, 2, 3, 4, 4]`  
-Output: length = 4, first 4 elements become `[1, 2, 3, 4]`
+Input: `[2, 5, 8, 11, 14, 17]`  
+Output: `2 8 14`
 
 ---
 
-## 🔴 Advanced Level
-
-### 11. Two Sum
-Given an array of integers `nums` and an integer `target`, return indices of two numbers that add up to `target`.  
-Assume exactly one solution and you may not use the same element twice.
+## 11. Find Prime Numbers in Array
+Print all prime numbers from the array.
 
 **Example:**  
-Input: `nums = [2, 7, 11, 15]`, target = 9  
-Output: `[0, 1]` (because nums[0] + nums[1] = 2 + 7 = 9)
+Input: `[4, 7, 10, 13, 17, 20]`  
+Output: `7 13 17`
 
 ---
 
-### 12. Kadane’s Algorithm – Maximum Subarray Sum
-Find the contiguous subarray with the largest sum and return its sum.
+## 12. Array Rotate by One (Left Rotation)
+Rotate the array **left by one position**. Do this in‑place.
 
 **Example:**  
-Input: `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`  
-Output: `6` (subarray `[4, -1, 2, 1]`)
+Input: `[1, 2, 3, 4, 5]`  
+Output: `[2, 3, 4, 5, 1]`
 
 ---
 
-### 13. Majority Element (Moore’s Voting)
-Find the element that appears more than `n/2` times. Assume such element always exists.
+## 13. Minimum Steps to Make Product of Array Equal to 1
+You are given an array of integers. In one step, you can increment or decrement any element by 1. Find the **minimum number of steps** required so that the product of all elements becomes `1`.
 
 **Example:**  
-Input: `[3, 2, 3]`  
-Output: `3`
+Input: `[-2, 0, 3]`  
+Output: `4`  
+Explanation:  
+- Change -2 → -1 (1 step)  
+- Change 0 → -1 (1 step)  
+- Change 3 → 1 (2 steps)  
+Total = 4 steps. New array: `[-1, -1, 1]`, product = 1.
 
 ---
 
-### 14. Best Time to Buy and Sell Stock
-Given prices where `prices[i]` is the stock price on day `i`, find the maximum profit you can achieve (buy once, sell once). If no profit possible, return 0.
+## 🧠 Hints
 
-**Example:**  
-Input: `[7, 1, 5, 3, 6, 4]`  
-Output: `5` (buy at 1, sell at 6)
-
----
-
-### 15. Product of Array Except Self
-Return an array `answer` such that `answer[i]` is the product of all elements except `nums[i]`, **without using division**.
-
-**Example:**  
-Input: `[1, 2, 3, 4]`  
-Output: `[24, 12, 8, 6]`
+| Problem | Hint |
+|---------|------|
+| 1 | Use two loops – one for input, one for output. |
+| 2 | Use sum formula `n*(n+1)/2`. |
+| 3 | Two pointers: `j` keeps position for unique elements. |
+| 4 & 5 | Check `arr[i] % 2`. |
+| 6 | Write a helper `isPrime()` function. |
+| 7 | Store first element in temp, shift left, place temp at end. |
+| 8 | Count negatives, zeros, positives. Cost to make each element ±1, then adjust sign of negatives. |
 
 ---
 
-## 🚀 FAANG Level
-
-### 16. Longest Subarray with Sum K (positive & negative)
-Given an array of integers (can be negative) and a target sum `k`, return the length of the longest subarray that sums to `k`.
-
-**Example:**  
-Input: `[1, -1, 5, -2, 3]`, k = 3  
-Output: `4` (subarray `[1, -1, 5, -2]` sums to 3)
-
----
-
-### 17. Sliding Window Maximum
-Given an array and a window size `k`, return an array of maximums from each sliding window of size `k`.
-
-**Example:**  
-Input: `[1, 3, -1, -3, 5, 3, 6, 7]`, k = 3  
-Output: `[3, 3, 5, 5, 6, 7]`
-
----
-
-### 18. Subarray with Given Sum (non‑negative integers)
-Given an array of **non‑negative** integers and a target sum, find if there exists a contiguous subarray that sums exactly to the target. Return its start and end indices (1‑based).
-
-**Example:**  
-Input: `[1, 2, 3, 7, 5]`, target = 12  
-Output: `[2, 4]` (subarray `[2, 3, 7]`)
-
----
-
-### 19. Merge Intervals
-Given an array of intervals `[start, end]`, merge all overlapping intervals.
-
-**Example:**  
-Input: `[[1,3],[2,6],[8,10],[15,18]]`  
-Output: `[[1,6],[8,10],[15,18]]`
-
----
-
-### 20. Trapping Rainwater
-Given an array representing the height of bars, compute how much water can be trapped after raining.
-
-**Example:**  
-Input: `[0,1,0,2,1,0,1,3,2,1,2,1]`  
-Output: `6`
+**Good luck!** 🚀
