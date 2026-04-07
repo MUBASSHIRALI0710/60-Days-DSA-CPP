@@ -7,15 +7,15 @@ int main()
 {
 
   int arr[] = {4, 6, -2, 11, 9};
-  int max = 0;
+  int min = arr[0];
   for (int i = 0; i < 5; i++)
   {
-    if (max > arr[i])
+    if (min > arr[i])
     {
-      max = arr[i];
+      min = arr[i];
     }
     }
-  cout << max;
+  cout << min;
 
   return 0;
 }
