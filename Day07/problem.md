@@ -77,16 +77,7 @@ Output: `[0, 0, 1, 1, 2, 2]`
 
 ---
 
-### 9. Find the Minimum Difference Between Any Two Elements
-After sorting, find the **minimum absolute difference** between any two elements in the array.
-
-**Example:**  
-Input: `[1, 5, 3, 19, 18, 25]`  
-Output: `1` (difference between 18 and 19)
-
----
-
-### 10. Sort Only Odd Numbers
+### 9. Sort Only Odd Numbers
 Given an array, sort only the **odd numbers** in ascending order while keeping the even numbers fixed in their original positions.
 
 **Example:**  
@@ -144,25 +135,3 @@ Output: `[1, 2, 3, 4]`
 
 ---
 
-## 🧪 Challenge – Compare Performance
-
-Write a program that:
-- Generates a random array of 10,000 integers.
-- Measures and prints the execution time of Selection, Bubble, and Insertion Sort on the same array.
-- Also measures the time of C++ STL `sort()`.
-
-**Which one is fastest? Why?**
-
----
-
-## ✅ Submission
-
-- Write your solutions in `Day07/code.cpp` (one function per problem).
-- Add comments explaining the algorithm for each.
-- Commit and push:
-
-```bash
-git add Day07/problems.md Day07/code.cpp
-git commit -m "Day07: Add sorting practice problems"
-git pull origin main --rebase
-git push
