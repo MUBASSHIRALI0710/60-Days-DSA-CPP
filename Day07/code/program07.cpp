@@ -13,15 +13,12 @@ int main()
   int n = 6;
 
   int left = 0, right = n - 1;
-  while (left < right)
-  {
-    if (arr[left] == 0)
-      left++;
-    else if (arr[right] == 1)
-      right--;
-    else
-      swap(arr[left++], arr[right--]);
-  }
+  for(int i=0;i<n-1;i++) {
+            for(int j=0;j<n-1-i;j++) {
+                if(arr[j] > arr[j+1]) 
+                swap(arr[j], arr[j+1]);
+            } 
+        }
 
   for (int i = 0; i < n; i++)
   {
